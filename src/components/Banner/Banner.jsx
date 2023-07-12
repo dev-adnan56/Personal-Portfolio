@@ -8,29 +8,31 @@ import { TypeAnimation } from 'react-type-animation';
 const Banner = () => {
     return (
         <>
-            <div className="banner" id='banner'>
+            <div className="banner mt-36 x-sm:mt-24" id='banner'>
                 <div className="banner-left">
                     <div className="field">
                     </div>
 
                     <div className="name break-words">Muhammad Adnan</div>
 
-                    <TypeAnimation
-                        sequence={[
-                            1000, 'Full Stack Web Developer',
-                            1000, 'React JS Developer',
-                            1000, 'Node JS Developer',
-                            1000,
-                        ]}
-                        wrapper="p"
-                        className="intro"
-                        speed={40}
-                        // style={{ fontSize: '2em', display: 'inline-block' }}
-                        repeat={Infinity}
-                    />
+                    <div className="h-28 x-sm:h-auto">
+                        <TypeAnimation
+                            sequence={[
+                                1000, 'Full Stack Web Developer',
+                                1000, 'React JS Developer',
+                                1000, 'Node JS Developer',
+                                1000,
+                            ]}
+                            wrapper="p"
+                            className="intro"
+                            speed={40}
+                            // style={{ fontSize: '2em', display: 'inline-block' }}
+                            repeat={Infinity}
+                        />
+                    </div>
                     <div className="btn-gp">
-                        <Scroll to='contact' spy={true} smooth={true} offset={-100} duration={500} className="btn-gradient">Contact Me</Scroll>
-                        <a href="https://1drv.ms/u/s!AoECPlVfD5n4hegGvagliukjtJf_RA?e=esy1Ja" target="_blank" className="btn-gradient">Download CV</a>
+                        <a className="btn-gradient" href='mailto:muhammadadnanbwp@outlook.com' >Email Me</a>
+                        <a href="https://drive.google.com/file/d/1WnD-71ySZRKvl5iuHwcl3O7pRUyz2ust" target="_blank" className="btn-gradient">Download CV</a>
                     </div>
                 </div>
                 <div className="banner-right">

@@ -103,6 +103,14 @@ const Skills = () => {
                     slidesToScroll: 1,
                     initialSlide: 1
                 }
+            },
+            {
+                breakpoint: 300,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
             }
         ]
 
@@ -119,7 +127,7 @@ const Skills = () => {
                                 <div className="img-box">
                                     <img src={item.image} alt={item.title} />
                                 </div>
-                                <div className="skills-txt">{item.title} </div>
+                                <div className="text-base md:text-lg">{item.title} </div>
                             </div>
                         )
                     })}

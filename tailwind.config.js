@@ -11,6 +11,7 @@ module.exports = withMT({
     },
     screens: {
       'sm_md': '750px',
+      'x-sm': '300px'
     }
   },
   plugins: [],

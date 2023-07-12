@@ -38,7 +38,7 @@ const Footer = () => {
                             <a href="https://wa.me/923096814886" className="btn-social" target="_blank">
                                 <RiWhatsappFill style={{ fill: "url(#gradient-icon)" }} />
                             </a>
-                            <a href="https://www.facebook.com/adnanbwp7" className="btn-social" target="_blank">
+                            {/* <a href="https://www.facebook.com/adnanbwp7" className="btn-social" target="_blank">
                                 <BsFacebook style={{ fill: "url(#gradient-icon)" }} />
                             </a>
                             <a href="https://twitter.com/adnanbwp7" className="btn-social" target="_blank">
@@ -46,7 +46,7 @@ const Footer = () => {
                             </a>
                             <a href="https://www.instagram.com/adnanbwp7/" className="btn-social" target="_blank">
                                 <AiFillInstagram style={{ fill: "url(#gradient-icon)" }} />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
