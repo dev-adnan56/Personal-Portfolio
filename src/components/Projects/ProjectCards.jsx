@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ProjectCards = () => {
+const ProjectCards = ({ className }) => {
     return (
         <>
-            <div className="card">
+            <div className={`card ${className}`}>
                 <div className="card-image">
                     <img className="img" src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&q=60" alt="Project 1" />
                 </div>

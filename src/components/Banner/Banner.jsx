@@ -39,10 +39,10 @@ const Banner = () => {
                     <img className="image" src={Banner_Image} alt="Banner Image" srcet={Banner_Image} />
                 </div>
             </div>
-            <div className="arrow-down">
+            <div className="arrow-down" id="section_about">
                 <CgArrowLongDown style={{ width: '20px', height: "40px", border: '1px solid' }} />
             </div>
-            <div className="about">
+            <div className="about" >
                 <div className="about-txt">About me</div>
                 <div className="about-desctiption">
                     I'm a Full Stack Web developer with over 1.5 years of experience. In addition, I am familiar with

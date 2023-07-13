@@ -13,13 +13,13 @@ const NavBar = () => {
                         <img src={Logo} className='img-logo mx-auto' alt="Muhammad Adnan" srcSet={Logo} width="100px" />
                     </Link>
                     <div className="grid grid-cols-1 x-sm:grid-cols-3 max-w-lg w-11/12 sm:w-8/12 mx-auto sm:mx-5 gap-x-2">
-                        <Scroll to='projects' spy={true} smooth={true} offset={-100} duration={500} className="title my-3 mx-auto">
+                        <Scroll to='skills' spy={true} smooth={true} offset={-140} duration={500} className="title my-3 mx-auto">
                             Skills
                         </Scroll>
-                        <Scroll to='projects' spy={true} smooth={true} offset={-100} duration={500} className="title my-3 mx-auto">
+                        <Scroll to='experience' spy={true} smooth={true} offset={-140} duration={500} className="title my-3 mx-auto">
                             Experience
                         </Scroll>
-                        <Scroll to='projects' spy={true} smooth={true} offset={-100} duration={500} className="title my-3 mx-auto">
+                        <Scroll to='projects' spy={true} smooth={true} offset={-140} duration={500} className="title my-3 mx-auto">
                             Projects
                         </Scroll>
                         {/* <Scroll to='contact' spy={true} smooth={true} offset={-100} duration={500} className="btn-gradient">

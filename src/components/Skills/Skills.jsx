@@ -118,7 +118,7 @@ const Skills = () => {
 
     return (
         <>
-            <div className="about my-8 mx-auto">
+            <div className="about my-8 mx-auto" id="skills">
                 <div className="about-txt">Skills</div>
                 <Slider {...settings}>
                     {skillsData.map((item, index) => {
@@ -127,7 +127,7 @@ const Skills = () => {
                                 <div className="img-box">
                                     <img src={item.image} alt={item.title} />
                                 </div>
-                                <div className="text-base md:text-lg">{item.title} </div>
+                                <div className="text-base md:text-lg text-center">{item.title} </div>
                             </div>
                         )
                     })}
